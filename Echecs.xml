@@ -2,43 +2,73 @@
 <!DOCTYPE FSE SYSTEM "Echecs.dtd"> 
 <FSE>
     <Tournoi>
-        <NomTournoi></NomTournoi>
-        <Vainqueur id="">
-            <Nom></Nom>
-            <Prenom></Prenom>
+        <NomTournoi>Tournoi dee juniors Suisse</NomTournoi>
+        <Vainqueur id="1">
+            <Nom>Turing</Nom>
+            <Prenom>Alan</Prenom>
         </Vainqueur>
         <Parties>
-            <Partie score="">
+            <Partie score="1-0">
                 <Date>
-                    <Jour></Jour>
-                    <Mois></Mois>
-                    <Annee></Annee>
-                    <Heure></Heure>
-                    <Minute></Minute>
+                    <Jour>07</Jour>
+                    <Mois>06</Mois>
+                    <Annee>2018</Annee>
+                    <Heure>11</Heure>
+                    <Minute>00</Minute>
                 </Date>
                 <Arbitre>
-                    <Nom></Nom>
-                    <Prenom></Prenom>
+                    <Nom>Donald</Nom>
+                    <Prenom>Knuth</Prenom>
                 </Arbitre>
-                <Blanc id="">
-                    <Nom></Nom>
-                    <Prenom></Prenom>
-                    <ELO></ELO>
+                <Blanc id="1">
+                    <Nom>Turing</Nom>
+                    <Prenom>Alan</Prenom>
+                    <ELO>2700</ELO>
                 </Blanc>
-                <Noir id="">
-                    <Nom></Nom>
-                    <Prenom></Prenom>
-                    <ELO></ELO>
+                <Noir id="2">
+                    <Nom>Lovelace</Nom>
+                    <Prenom>Adda</Prenom>
+                    <ELO>2600</ELO>
                 </Noir>
                 <Coups>
-                    <Coup>
-                        <Roque type=""/>
-                    </Coup>
-                    <Coup>
-                        <Deplacement piece="" elminiation="" promotion="" situation="">
-                            <Destination></Destination>
-                            <Depart></Depart>
+                   <Coup>
+                        <Deplacement piece="Pion">
+                            <Destination>E4</Destination>
                         </Deplacement>
+                   </Coup>
+                   <Coup>
+                        <Deplacement piece="Pion">
+                            <Destination>E5</Destination>
+                        </Deplacement>
+                   </Coup>
+                   <Coup>
+                        <Deplacement piece="Fou">
+                            <Destination>C4</Destination>
+                        </Deplacement>
+                   </Coup>
+                   <Coup>
+                        <Deplacement piece="Cavalier">
+                            <Destination>C6</Destination>
+                        </Deplacement>
+                   </Coup>
+                   <Coup>
+                        <Deplacement piece="Dame">
+                            <Destination>H5</Destination>
+                        </Deplacement>
+                   </Coup>
+                   <Coup>
+                        <Deplacement piece="Cavalier">
+                            <Destination>F6</Destination>
+                        </Deplacement>
+                   </Coup>
+                   <Coup>
+                        <Deplacement piece="Dame"  elimination="Pion" situation="Échec et mat">
+                            <Destination>F7</Destination>
+                        </Deplacement>
+                    </Coup>
+                  
+                    <Coup>
+                        <Roque type="Grand"/>
                     </Coup>
                 </Coups>
             </Partie>
