@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FSE SYSTEM "echec.dtd"> 
+<FSE>
+    <Tournoi>
+        <NomTournoi></NomTournoi>
+        <Vainqueur id="">
+            <Nom></Nom>
+            <Prenom></Prenom>
+        </Vainqueur>
+        <Parties>
+            <Partie score="">
+                <Date>
+                    <Jour></Jour>
+                    <Mois></Mois>
+                    <Annee></Annee>
+                    <Heure></Heure>
+                    <Minute></Minute>
+                </Date>
+                <Arbitre>
+                    <Nom></Nom>
+                    <Prenom></Prenom>
+                </Arbitre>
+                <Blanc id="">
+                    <Nom></Nom>
+                    <Prenom></Prenom>
+                    <ELO></ELO>
+                </Blanc>
+                <Noir id="">
+                    <Nom></Nom>
+                    <Prenom></Prenom>
+                    <ELO></ELO>
+                </Noir>
+                <Coups>
+                    <Coup>
+                        <Roque type=""/>
+                    </Coup>
+                    <Coup>
+                        <Deplacement piece="" elminiation="" promotion="" situation="">
+                            <Destination></Destination>
+                            <Depart></Depart>
+                        </Deplacement>
+                    </Coup>
+                </Coups>
+            </Partie>
+        </Parties>
+    </Tournoi>
+</FSE>
