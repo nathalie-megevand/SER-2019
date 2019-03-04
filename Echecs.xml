@@ -32,43 +32,43 @@
                 </Noir>
                 <Coups>
                    <Coup>
-                        <Deplacement piece="Pion">
+                        <Deplacement Piece="Pion">
                             <Destination>E4</Destination>
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement piece="Pion">
+                        <Deplacement Piece="Pion">
                             <Destination>E5</Destination>
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement piece="Fou">
+                        <Deplacement Piece="Fou">
                             <Destination>C4</Destination>
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement piece="Cavalier">
+                        <Deplacement Piece="Cavalier">
                             <Destination>C6</Destination>
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement piece="Dame">
+                        <Deplacement Piece="Dame">
                             <Destination>H5</Destination>
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement piece="Cavalier">
+                        <Deplacement Piece="Cavalier">
                             <Destination>F6</Destination>
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement piece="Dame"  elimination="Pion" situation="Échec et mat">
+                        <Deplacement Piece="Dame"  Elimination="Pion" Situation="Échec et mat">
                             <Destination>F7</Destination>
                         </Deplacement>
                     </Coup>
                   
                     <Coup>
-                        <Roque type="Grand"/>
+                        <Roque Type="Grand"/>
                     </Coup>
                 </Coups>
             </Partie>

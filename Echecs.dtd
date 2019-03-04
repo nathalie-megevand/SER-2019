@@ -15,27 +15,20 @@
             <!ELEMENT Heure (#PCDATA)>
             <!ELEMENT Minute (#PCDATA)>
         <!ELEMENT Arbitre (Nom, Prenom)>
-            <!ELEMENT Nom (#PCDATA)>
-            <!ELEMENT Prenom (#PCDATA)>
         <!ELEMENT Blanc (Nom, Prenom, ELO)>
             <!ATTLIST Blanc id CDATA #REQUIRED>
-            <!ELEMENT Nom (#PCDATA)>
-            <!ELEMENT Prenom (#PCDATA)>
             <!ELEMENT ELO (#PCDATA)>
         <!ELEMENT Noir (Nom, Prenom, ELO)>
             <!ATTLIST Noir id CDATA #REQUIRED>
-            <!ELEMENT Nom (#PCDATA)>
-            <!ELEMENT Prenom (#PCDATA)>
-            <!ELEMENT ELO (#PCDATA)>
         <!ELEMENT Coups (Coup*)>
             <!ELEMENT Coup (Roque | Deplacement)>
                 <!ELEMENT Roque EMPTY>
-                    <!ATTLIST Roque type (Petit | Grand) #REQUIRED>
-                <!ELEMENT Deplacement (Piece, Destination, Depart?, Elimination?, Promotion?, Situation?>
-                    <!ATTLIST Deplacement piece (Tour | Cavalier | Fou | Dame | Roi | Pion) #IMPLIED>
-                    <!ATTLIST Deplacement elimination (Tour | Cavalier | Fou | Dame | Pion) #IMPLIED>
-                    <!ATTLIST Deplacement promotion (Tour | Cavalier | Fou | Dame) #IMPLIED>
-                    <!ATTLIST Deplacement situation (Échec au roi | Échec et mat | Partie nulle) #IMPLIED>
+                    <!ATTLIST Roque Type (Petit | Grand) #REQUIRED>
+                <!ELEMENT Deplacement (Piece, Destination, Depart?, Elimination?, Promotion?, Situation?)>
+                    <!ATTLIST Deplacement Piece (Tour | Cavalier | Fou | Dame | Roi | Pion) #IMPLIED>
+                    <!ATTLIST Deplacement Elimination (Tour | Cavalier | Fou | Dame | Pion) #IMPLIED>
+                    <!ATTLIST Deplacement Promotion (Tour | Cavalier | Fou | Dame) #IMPLIED>
+                    <!ATTLIST Deplacement Situation (Échec au roi | Échec et mat | Partie nulle) #IMPLIED>
                     <!ELEMENT Destination (#PCDATA)>
                     <!ELEMENT Depart (#PCDATA)>
                     

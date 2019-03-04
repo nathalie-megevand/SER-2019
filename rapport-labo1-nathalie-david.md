@@ -10,21 +10,26 @@ Nathalie Mégevand & David Simeonovic
 
 ## DTD + choix
 
+Toutes les id en tant qu'attributs. 
+
+Deplacement : Piece, Elimation, Promotion, Situation en tant qu'attribut afin de contrôler les valeurs possibles.
+
+Similairement Roque vide, mais avec un attribut Type.
 
 ## Capture d'écran (XML respecte DTD)
 
 ## Réponses au questions
 
-### Imaginons que vous souhaitez enregistrer le classement ELO que chaque joueur
-d’une partie avait au moment où elle a été jouée, qu’est-ce qu’il faudrait modifier
-dans votre DTD ?
+### Imaginons que vous souhaitez enregistrer le classement ELO que chaque joueur d’une partie avait au moment où elle a été jouée, qu’est-ce qu’il faudrait modifier dans votre DTD ?
 
-### Est-ce possible dans votre DTD de représenter le fait qu’il ne peut y avoir que 20
-parties au maximum dans un tournoi ? Si oui, comment ?
+Ajouter un élément <ELO passe> </ELO passe>
 
-### Est-ce possible dans votre DTD de représenter le fait que les 2 joueurs d’une partie
-doivent être différents ? Si oui, comment ?
+### Est-ce possible dans votre DTD de représenter le fait qu’il ne peut y avoir que 20 parties au maximum dans un tournoi ? Si oui, comment ?
 
+Pas sûre, mais je crois pas (à vérifier)
+
+### Est-ce possible dans votre DTD de représenter le fait que les 2 joueurs d’une partie doivent être différents ? Si oui, comment ?
+Dans la manière dont nous avons implémenter les joueurs cela n'est pas possible. Car les balise Nom et Prenom peuvent contenir n'importe quoi car elle ont été définie comme contenant des #CDATA.
 
 
 ## Conclusion
