@@ -8,7 +8,7 @@
             <Prenom>Alan</Prenom>
             <ELO>2700</ELO>
       </Participant>
-      <Participant>
+      <Participant id="P2">
           <Nom>Lovelace</Nom>
           <Prenom>Adda</Prenom>
           <ELO>2600</ELO>
