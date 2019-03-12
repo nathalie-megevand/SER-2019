@@ -1,10 +1,13 @@
 <!ELEMENT FSE (Tournoi+)>
 <!ELEMENT Tournoi (NomTournoi, Vainqueur, Parties?)>
 <!ELEMENT NomTournoi (#PCDATA)>
-<!ELEMENT Vainqueur (Nom, Prenom)>
-    <!ATTLIST Vainqueur id CDATA #REQUIRED>
+<!ELEMENT Participant+ (Nom, Prenom, ELO)>
+<!ATTLIST Participant id ID #REQUIRED>
     <!ELEMENT Nom (#PCDATA)>
     <!ELEMENT Prenom (#PCDATA)>
+    <!ELEMENT ELO (#PCDATA)>
+<!ELEMENT Vainqueur>
+    <!ATTLIST Vainqueur id IDREF #REQUIRED>
 <!ELEMENT Parties (Partie*)>
     <!ELEMENT Partie (Date, Arbitre, Score, Blanc, Noir, Coups)>      
         <!ATTLIST Partie score (1-0 | 0.5-0.5 | 0-1) #REQUIRED>
@@ -15,11 +18,10 @@
             <!ELEMENT Heure (#PCDATA)>
             <!ELEMENT Minute (#PCDATA)>
         <!ELEMENT Arbitre (Nom, Prenom)>
-        <!ELEMENT Blanc (Nom, Prenom, ELO)>
-            <!ATTLIST Blanc id CDATA #REQUIRED>
-            <!ELEMENT ELO (#PCDATA)>
-        <!ELEMENT Noir (Nom, Prenom, ELO)>
-            <!ATTLIST Noir id CDATA #REQUIRED>
+        <!ELEMENT Blanc>
+            <!ATTLIST Blanc id IDREF #REQUIRED>
+        <!ELEMENT Noir>
+            <!ATTLIST Noir id IDREF #REQUIRED>
         <!ELEMENT Coups (Coup*)>
             <!ELEMENT Coup (Roque | Deplacement)>
                 <!ELEMENT Roque EMPTY>
