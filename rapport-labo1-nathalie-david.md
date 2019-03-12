@@ -10,7 +10,7 @@ Nathalie Mégevand & David Simeonovic
 
 ## DTD + choix
 
-Toutes les id en tant qu'attributs. 
+Une liste de participants avec une id permet de s'y référer par la suite grâce à une attribut IDREF sans redondance. 
 
 Deplacement : Piece, Elimation, Promotion, Situation en tant qu'attribut afin de contrôler les valeurs possibles.
 
@@ -22,7 +22,7 @@ Similairement Roque vide, mais avec un attribut Type.
 
 ### Imaginons que vous souhaitez enregistrer le classement ELO que chaque joueur d’une partie avait au moment où elle a été jouée, qu’est-ce qu’il faudrait modifier dans votre DTD ?
 
-Ajouter un élément <ELO passe> </ELO passe>
+Il suffit d'ajouter un élément <ELO passe> </ELO passe> à l'élément Participant.
 
 ### Est-ce possible dans votre DTD de représenter le fait qu’il ne peut y avoir que 20 parties au maximum dans un tournoi ? Si oui, comment ?
 
