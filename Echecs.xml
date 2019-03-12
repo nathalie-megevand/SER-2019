@@ -1,247 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE FSE SYSTEM "Echecs.dtd"> 
 <FSE>
-    <Tournoi>
-      <NomTournoi>Tournoi Suisse des juniors </NomTournoi>
-      <Participant id="P1">
-            <Nom>Turing</Nom>
-            <Prenom>Alan</Prenom>
-            <ELO>2700</ELO>
-      </Participant>
-      <Participant id="P2">
-          <Nom>Lovelace</Nom>
-          <Prenom>Adda</Prenom>
-          <ELO>2600</ELO>
-      </Participant>
-      <Participant id="P3">
-          <Nom>Erdos</Nom>
-          <Prenom>Paul</Prenom>
-          <ELO>2200</ELO>
-      </Participant>
-      <Participant id="P4">
-          <Nom>Knuth</Nom>
-          <Prenom>Donald</Prenom>
-          <ELO>2300</ELO>
-      </Participant>
-        <Vainqueur id="P1"/>
-        <Parties>
-            <Partie score="1-0">
-                <Date>
-                    <Jour>07</Jour>
-                    <Mois>06</Mois>
-                    <Annee>2018</Annee>
-                    <Heure>11</Heure>
-                    <Minute>00</Minute>
-                </Date>
-                <Arbitre>
-                    <Nom>Donald</Nom>
-                    <Prenom>Knuth</Prenom>
-                </Arbitre>
-                <Blanc id="P1"/>
-                <Noir id="P2"/>
-                <Coups>
-                   <Coup>
-                        <Deplacement Piece="Pion">
-                            <Destination>E4</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Pion">
-                            <Destination>E5</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Fou">
-                            <Destination>C4</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Cavalier">
-                            <Destination>C6</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Dame">
-                            <Destination>H5</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Cavalier">
-                            <Destination>F6</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                     <Deplacement Piece="Dame"  Elimination="Pion" Situation="Mat">
-                            <Destination>F7</Destination>
-                        </Deplacement>
-                    </Coup>
-                </Coups>
-            </Partie>
-            <Partie score="1/2-1/2">
-                <Date>
-                    <Jour>08</Jour>
-                    <Mois>06</Mois>
-                    <Annee>2018</Annee>
-                    <Heure>14</Heure>
-                    <Minute>30</Minute>
-                </Date>
-                <Arbitre>
-                    <Nom>Lovelace</Nom>
-                    <Prenom>Adda</Prenom>
-                </Arbitre>
-                <Blanc id="P4"/>
-                <Noir id="P3"/>
-                <Coups>
-                   <Coup>
-                        <Deplacement Piece="Pion">
-                            <Destination>E4</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Cavalier">
-                            <Destination>C6</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Fou">
-                            <Destination>C4</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Fou", Situation="Echec">
-                            <Destination>D8</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Dame">
-                            <Destination>H5</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Roque type="grand">
-                   </Coup>
-                   <Coup>
-                     <Deplacement Piece="Tour"  Elimination="Pion">
-                            <Destination>F7</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                     <Deplacement Piece="Cavalier"  Situation="Nulle">
-                            <Destination>B2</Destination>
-                        </Deplacement>
-                   </Coup>
-                </Coups>
-            </Partie>
-        </Parties>
-      </Tournoi>
-       <Tournoi>
-      <NomTournoi>Tournoi de la Terre du Milieu </NomTournoi>
-      <Participant id="P5">
-            <Nom>Saquet</Nom>
-            <Prenom>Bilbon</Prenom>
-            <ELO>1000</ELO>
-      </Participant>
-      <Participant id="P6">
-          <Nom>Saquet</Nom>
-          <Prenom>Frodon</Prenom>
-          <ELO>1600</ELO>
-      </Participant>
-      <Participant id="P7">
-          <Nom>Gamgie</Nom>
-          <Prenom>Samsagace</Prenom>
-          <ELO>2800</ELO>
-      </Participant>
-      <Participant id="P8">
-          <Nom>Touque</Nom>
-          <Prenom>Peregrin</Prenom>
-          <ELO>2300</ELO>
-      </Participant>
-      <Vainqueur id="P7"/>
-       <Parties>
-            <Partie score="1-0">
-                <Date>
-                    <Jour>14</Jour>
-                    <Mois>01</Mois>
-                    <Annee>2019</Annee>
-                    <Heure>08</Heure>
-                    <Minute>00</Minute>
-                </Date>
-                <Arbitre>
-                    <Nom>Le Gris</Nom>
-                    <Prenom>Gandalf</Prenom>
-                </Arbitre>
-                <Blanc id="P7"/>
-                <Noir id="P8"/>
-                <Coups>
-                   <Coup>
-                        <Deplacement Piece="Roi">
-                            <Destination>E8</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Tour" Elimination="Fou">
-                            <Destination>A4</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Roque type="Petit">
-                   </Coup>
-                   <Coup>
-                     <Deplacement Piece="Pion"  Elimination="Dame" Situation="Mat">
-                            <Destination>G3</Destination>
-                        </Deplacement>
-                    </Coup>
-                </Coups>
-            </Partie>
-            <Partie score="0-1">
-                <Date>
-                    <Jour>04</Jour>
-                    <Mois>02</Mois>
-                    <Annee>2019</Annee>
-                    <Heure>16</Heure>
-                    <Minute>15</Minute>
-                </Date>
-                <Arbitre>
-                    <Nom>Brandbouque</Nom>
-                    <Prenom>Meriadoc</Prenom>
-                </Arbitre>
-                <Blanc id="P5"/>
-                <Noir id="P7"/>
-                <Coups>
-                   <Coup>
-                        <Deplacement Piece="Dame", Situation="Echec">
-                            <Destination>E3</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Cavalier">
-                            <Destination>C6</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Fou">
-                            <Destination>D7</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Fou", Elimination="Pion", Situation="Echec">
-                            <Destination>A2</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Deplacement Piece="Roi">
-                            <Destination>H1</Destination>
-                        </Deplacement>
-                   </Coup>
-                   <Coup>
-                        <Roque type="grand">
-                   </Coup>
-                   <Coup>
-                     <Deplacement Piece="Tour"  Elimination="Cavalier", Situation="Mat">
-                            <Destination>H3</Destination>
-                        </Deplacement>
-                   </Coup>
-                </Coups>
-            </Partie>
-        </Parties>
+	<Tournoi>
+		<NomTournoi>Tournoi Suisse des juniors </NomTournoi>
+		<Participant id="P1">
+			<Nom>Turing</Nom>
+			<Prenom>Alan</Prenom>
+			<ELO>2700</ELO>
+		</Participant>
+		<Participant id="P2">
+			<Nom>Lovelace</Nom>
+			<Prenom>Adda</Prenom>
+			<ELO>2600</ELO>
+		</Participant>
+		<Participant id="P3">
+			<Nom>Erdos</Nom>
+			<Prenom>Paul</Prenom>
+			<ELO>2200</ELO>
+		</Participant>
+		<Participant id="P4">
+			<Nom>Knuth</Nom>
+			<Prenom>Donald</Prenom>
+			<ELO>2300</ELO>
+		</Participant>
+		<Vainqueur id="P1"/>
+		<Parties>
+			<Partie score="1-0">
+				<Date>
+					<Jour>07</Jour>
+					<Mois>06</Mois>
+					<Annee>2018</Annee>
+					<Heure>11</Heure>
+					<Minute>00</Minute>
+				</Date>
+				<Arbitre>
+					<Nom>Donald</Nom>
+					<Prenom>Knuth</Prenom>
+				</Arbitre>
+				<Blanc id="P1"/>
+				<Noir id="P2"/>
+				<Coups>
+					<Coup>
+						<Deplacement Piece="Pion">
+							<Destination>E4</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Pion">
+							<Destination>E5</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Fou">
+							<Destination>C4</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Cavalier">
+							<Destination>C6</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Dame">
+							<Destination>H5</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Cavalier">
+							<Destination>F6</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Dame"  Elimination="Pion" Situation="Mat">
+							<Destination>F7</Destination>
+						</Deplacement>
+					</Coup>
+				</Coups>
+			</Partie>
+			<Partie score="0.5-0.5">
+				<Date>
+					<Jour>08</Jour>
+					<Mois>06</Mois>
+					<Annee>2018</Annee>
+					<Heure>14</Heure>
+					<Minute>30</Minute>
+				</Date>
+				<Arbitre>
+					<Nom>Lovelace</Nom>
+					<Prenom>Adda</Prenom>
+				</Arbitre>
+				<Blanc id="P4"/>
+				<Noir id="P3"/>
+				<Coups>
+					<Coup>
+						<Deplacement Piece="Pion">
+							<Destination>E4</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Cavalier">
+							<Destination>C6</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Fou">
+							<Destination>C4</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Fou" Situation="Echec">
+							<Destination>D8</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Dame">
+							<Destination>H5</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Roque Type="Grand"/>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Tour"  Elimination="Pion">
+							<Destination>F7</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Cavalier"  Situation="Nulle">
+							<Destination>B2</Destination>
+						</Deplacement>
+					</Coup>
+				</Coups>
+			</Partie>
+		</Parties>
+	</Tournoi>
+	<Tournoi>
+		<NomTournoi>Tournoi de la Terre du Milieu </NomTournoi>
+		<Participant id="P5">
+			<Nom>Saquet</Nom>
+			<Prenom>Bilbon</Prenom>
+			<ELO>1000</ELO>
+		</Participant>
+		<Participant id="P6">
+			<Nom>Saquet</Nom>
+			<Prenom>Frodon</Prenom>
+			<ELO>1600</ELO>
+		</Participant>
+		<Participant id="P7">
+			<Nom>Gamgie</Nom>
+			<Prenom>Samsagace</Prenom>
+			<ELO>2800</ELO>
+		</Participant>
+		<Participant id="P8">
+			<Nom>Touque</Nom>
+			<Prenom>Peregrin</Prenom>
+			<ELO>2300</ELO>
+		</Participant>
+		<Vainqueur id="P7"/>
+		<Parties>
+			<Partie score="1-0">
+				<Date>
+					<Jour>14</Jour>
+					<Mois>01</Mois>
+					<Annee>2019</Annee>
+					<Heure>08</Heure>
+					<Minute>00</Minute>
+				</Date>
+				<Arbitre>
+					<Nom>Le Gris</Nom>
+					<Prenom>Gandalf</Prenom>
+				</Arbitre>
+				<Blanc id="P7"/>
+				<Noir id="P8"/>
+				<Coups>
+					<Coup>
+						<Deplacement Piece="Roi">
+							<Destination>E8</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Tour" Elimination="Fou">
+							<Destination>A4</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Roque Type="Petit"/>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Pion"  Elimination="Dame" Situation="Mat">
+							<Destination>G3</Destination>
+						</Deplacement>
+					</Coup>
+				</Coups>
+			</Partie>
+			<Partie score="0-1">
+				<Date>
+					<Jour>04</Jour>
+					<Mois>02</Mois>
+					<Annee>2019</Annee>
+					<Heure>16</Heure>
+					<Minute>15</Minute>
+				</Date>
+				<Arbitre>
+					<Nom>Brandbouque</Nom>
+					<Prenom>Meriadoc</Prenom>
+				</Arbitre>
+				<Blanc id="P5"/>
+				<Noir id="P7"/>
+				<Coups>
+					<Coup>
+						<Deplacement Piece="Dame" Situation="Echec">
+							<Destination>E3</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Cavalier">
+							<Destination>C6</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Fou">
+							<Destination>D7</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Fou" Elimination="Pion" Situation="Echec">
+							<Destination>A2</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Roi">
+							<Destination>H1</Destination>
+						</Deplacement>
+					</Coup>
+					<Coup>
+						<Roque Type="Grand"/>
+					</Coup>
+					<Coup>
+						<Deplacement Piece="Tour"  Elimination="Cavalier" Situation="Mat">
+							<Destination>H3</Destination>
+						</Deplacement>
+					</Coup>
+				</Coups>
+			</Partie>
+		</Parties>
+    </Tournoi>
 </FSE>
