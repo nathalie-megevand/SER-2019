@@ -61,7 +61,7 @@
                         </Deplacement>
                    </Coup>
                    <Coup>
-                        <Deplacement Piece="Dame"  Elimination="Pion" Situation="Échec et mat">
+                     <Deplacement Piece="Dame"  Elimination="Pion" Situation="Mat">
                             <Destination>F7</Destination>
                         </Deplacement>
                     </Coup>
