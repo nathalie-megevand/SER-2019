@@ -11,7 +11,7 @@
 <!ELEMENT Parties (Partie*)>
     <!ELEMENT Partie (Date, Arbitre, Score, Blanc, Noir, Coups)>      
         <!ATTLIST Partie score (1-0 | 0.5-0.5 | 0-1) #REQUIRED>
-        <!ELEMENT Date (Jour, Mois, Annee)>
+        <!ELEMENT Date (Jour, Mois, Annee, Heure, Minute)>
             <!ELEMENT Jour (#PCDATA)>
             <!ELEMENT Mois (#PCDATA)>
             <!ELEMENT Annee (#PCDATA)>
@@ -30,7 +30,7 @@
                     <!ATTLIST Deplacement Piece (Tour | Cavalier | Fou | Dame | Roi | Pion) #IMPLIED>
                     <!ATTLIST Deplacement Elimination (Tour | Cavalier | Fou | Dame | Pion) #IMPLIED>
                     <!ATTLIST Deplacement Promotion (Tour | Cavalier | Fou | Dame) #IMPLIED>
-                    <!ATTLIST Deplacement Situation (Échec au roi | Échec et mat | Partie nulle) #IMPLIED>
+                    <!ATTLIST Deplacement Situation (Echec | Mat | Nulle) #IMPLIED>
                     <!ELEMENT Destination (#PCDATA)>
                     <!ELEMENT Depart (#PCDATA)>
                     
