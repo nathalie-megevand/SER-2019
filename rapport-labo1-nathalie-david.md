@@ -34,3 +34,6 @@ Dans la manière dont nous avons implémenter les joueurs cela n'est pas possibl
 
 
 ## Conclusion
+La principale chose à retenir de ce laboratoire est que la DTD nous permet le contrôle sur une certaine structure du document XML, mais pas sur son véritable contenu, ni sur sa cohérence.
+Dans notre exemple il n'y a aucun moyen de s'assurer que les coups soient légaux ou même que le bon type de donnée soit rentré. Il est, par exemple, possible de rentrer la valeur "A" pour l'heure du tournois ou même "1234" pour le nom d'un participant. Les attributs permettent un certains contrôle sur les valeurs entrées grâce aux valeurs énumérées entrées dans la DTD.
+Au final, tout le travail de validité et de cohérence devra être fait par le parseur. Néanmoins ce format permet justement de créer un parseur en définissant une structure clair que le parseur pourra interpréter.
